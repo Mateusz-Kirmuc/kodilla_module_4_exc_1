@@ -1,10 +1,15 @@
 /* GENERAL */
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
   margin: 0;
+}
+
+.grid {
+  border: solid;
 }
 
 .container {
@@ -18,8 +23,22 @@ body {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+.cell {
+  border: solid red;
+  width: 100%;
+  padding: 10px;
+}
+
+.short-cell {
+  height: 100px;
+}
+
+.tall-cell {
+  height: 200px;
 }
 
 .evenly-spaced-children {
@@ -31,11 +50,8 @@ body {
   border: solid thin;
 }
 
-.grid {
-  border: solid;
-}
-
 /* NAVBAR */
+
 .logo {
   margin-right: 200px;
 }
