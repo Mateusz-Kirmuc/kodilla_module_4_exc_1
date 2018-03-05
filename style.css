@@ -1,7 +1,6 @@
 /* GENERAL */
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
 
 .grid {
   border: solid;
+  text-align: center;
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
 }
 
 .cell:nth-child(even) {
-  margin: 0 5%; 
+  margin: 0 5%;
 }
 
 .short-cell {
@@ -73,4 +73,9 @@ body {
   color: inherit;
   border: solid thin;
   padding: 20px;
+}
+
+/* FOOTER */
+footer {
+  padding: 10px 0;
 }
