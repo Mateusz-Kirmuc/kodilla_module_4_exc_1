@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 1px;
+}
+
+/* NAVBAR */
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 200px;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+.link a {
+  text-decoration: none;
+  color: inherit;
+  border: solid thin;
+  padding: 20px;
+}
