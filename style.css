@@ -9,8 +9,17 @@ body {
 
 .container {
 	max-width: 1200px;
-	margin: 20px auto;
+	margin: 0 auto;
 	min-height: 1px;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .evenly-spaced-children {
@@ -18,15 +27,15 @@ body {
   justify-content: space-between;
 }
 
-/* NAVBAR */
-
-.navbar .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.visible-border {
+  border: solid thin;
 }
 
+.grid {
+  border: solid;
+}
+
+/* NAVBAR */
 .logo {
   margin-right: 200px;
 }
